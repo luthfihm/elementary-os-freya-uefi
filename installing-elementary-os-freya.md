@@ -27,7 +27,7 @@ you cannot install Windows 8.1 when **secure boot** is turned off. Trust me, upg
     1. [Freya 64-bit 20140810](http://downloads.sourceforge.net/project/elementaryos/unstable/elementaryos-unstable-amd64.20140810.iso)
     1. [Pen Drive Linix](http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/)
 1. A laptop that suppports UEFI and Elementary OS
-1.[rEFInd](http://www.rodsbooks.com/refind/getting.html)
+1. [rEFInd](http://www.rodsbooks.com/refind/getting.html)
 
 ## Starting the installation process (Partitioning)
 1. Disable Secure Boot in your BIOS
@@ -72,6 +72,11 @@ So you might need to do a little playing, but on my Dell XPS15, the default is M
 1. Replace the boot directory contents with the contents of the refind loader
 1. Rename refind_x64.efi to the same name of the main efi peviously in the directory
     1. For example, if your default loader is Microsoft the default efi file is bootmgfw.efi
+
+## Dual Booting Windows
+1. Create a copy of the backed up boot loader (assuming it was windows).
+1. At the top level of the EFI directory name this copy Windows
+1. rEFInd will auto detect this, and allow you to continue booting into windows.
 
 ![New Folder Structure](./resources/loader-folders.png)
 
