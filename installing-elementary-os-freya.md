@@ -1,6 +1,11 @@
 #Installing Elementary OS Freya
 
-*Disclaimer: I provide no warranties. Backup and safely store your data/settings. This document was created from my experience, but your experience might differ.*
+*Disclaimer: I provide no warranties. Backup and safely store your data/settings. This document was created from my
+experience, but your experience might differ.*
+
+*The Elementary OS team prefers not to abbreviate the name f the operating system to "eos". I found this out after
+creating these steps, and to minimize errors in my documentation I will continue to use the abbreviation, but remember
+this is not desired by the Elementary OS team.*
 
 Also, thanks to [Avi Romanoff](http://github.com/aroman/freya-on-a-mac). His post got me moving in the correct direction.
 
