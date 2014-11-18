@@ -69,3 +69,6 @@ So you might need to do a little playing, but on my Dell XPS15, the default is M
     1. For example, if your default loader is Microsoft the default efi file is bootmgfw.efi
 
 ![New Folder Structure](./resources/loader-folders.png)
+
+At this point you can reboot, remove the USB drive, and you have a dual boot system using UEFI. In part 2 I'll explain
+cleaning up the menu and theming.
