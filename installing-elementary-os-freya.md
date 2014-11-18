@@ -14,13 +14,13 @@ Also, thanks to [Avi Romanoff](http://github.com/aroman/freya-on-a-mac). His pos
 1. You repeatedly encounter an error message similiar to *"grub-efi-amd64-signed failed to install on /target/"* during the normal installation process.
 
 ## Expectations / Assumptions
-You must be comforatable with disk partitioning, mounting drices, and your computer. I won't be going into detail about
+You must be comforatable with disk partitioning, mounting devices, and your computer. I won't be going into detail about
 commands, applications, or configuration outside the scope of this document.
 
 ## Before you get started
 If you will be dual booting with Windows 8. It is my advice that you install Windows 8, and ensure the system is completely
-up-to-date before starting the steps outlined in this document. If you intend to upgrade to Windows 8.1, do so before starting these steps
-you cannot install Windows 8.1 when **secure boot** is turned off. Trust me, upgrade now and save time.
+up-to-date before starting the steps outlined in this document. If you intend to upgrade to Windows 8.1, do so before starting these steps.
+You cannot install Windows 8.1 when **secure boot** is turned off. Trust me, upgrade now and save time.
 
 ## What you need
 1. A USB drive with a bootable version of Freya installed.
@@ -64,7 +64,7 @@ you cannot install Windows 8.1 when **secure boot** is turned off. Trust me, upg
     1. `sudo <path_to_rEFInd>/install.sh --alldrivers`
 
 ## Manipulating the EFI loader
-*Note: Your computer manufactuere has probably "hard-coded" the EFI loader that will be used during boot.
+*Note: Your computer manufacturer has probably "hard-coded" the EFI loader that will be used during boot.
 So you might need to do a little playing, but on my Dell XPS15, the default is Microsoft.*
 
 1. After installing rEFInd you will have folder called refind in /boot/efi
